@@ -1,0 +1,8 @@
+build:
+	g++ *.cpp -o ./lanParty
+
+run: 
+	./lanParty c.in d.in r.out
+
+clean:
+	rm lanParty
